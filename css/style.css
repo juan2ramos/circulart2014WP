@@ -217,7 +217,7 @@ nav li {
 
 }
 .submenu,.nivel-2{
-    background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,1);
     display: none;
     position: absolute;
     width: 138px;

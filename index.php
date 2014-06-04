@@ -28,7 +28,7 @@
 
     <?php endwhile; ?>
 
-    <h2 class="register">registrarse</h2>
+    <h2 class="register"><a href="http://circulart.org/mercados" target="_blank">registrarse</a></h2>
     <canvas id="myCanvas"></canvas>
 </section>
 
@@ -43,11 +43,11 @@
     function doResize()
     {
 
-        context.canvas.width = window.innerWidth-110;
+        context.canvas.width = 1060;
         context.beginPath();
         context.moveTo(0, 10);
         context.lineTo(500, 10);
-        context.lineTo(1020, 80);
+        context.lineTo(900, 80);
         context.lineTo(window.innerWidth-20, 20);
 
         context.stroke();

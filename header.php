@@ -43,7 +43,7 @@
         <li>
             <a href="que-es" class="active">convocatoria</a>
             <ul class="submenu">
-                <li><a href="http://circulart.org/mercado">REGISTRARSE</a></li>
+                <li><a href="http://circulart.org/mercado" target="_blank">REGISTRARSE</a></li>
                 <li class="a-submenu"><a href="">CONDICIONES</a>
                     <ul class="nivel-2">
                         <li><a href="quienes-pueden-participar.php">Quienes pueden participar</a></li>
@@ -63,18 +63,14 @@
 
         </li>
         <li>
-            <a href="mercado" class="a-next">artistas
+            <a href="artistas" class="a-next">artistas
                 <p class="next">Próximamente publicaremos la información sobre curadores...</p>
             </a>
         </li>
-        <li><a href="radio" class="a-next">profesionales
+        <li><a href="profesionales" class="a-next">profesionales
                 <p class="next">Próximamente publicaremos la información sobre curadores...</p>
             </a></li>
-        <li><a href="noticias" class="a-next">agendamiento
-                <p class="next">Próximamente publicaremos la información sobre curadores...</p>
-            </a></li>
-        <li><a href="contacto" class="a-next">showcases
-                <p class="next">Próximamente publicaremos la información sobre curadores...</p></a></li>
+
         <li><a href="contacto" class="a-next">catálogo
                 <p class="next">Próximamente publicaremos la información sobre curadores...</p></a></li>
     </ul>
