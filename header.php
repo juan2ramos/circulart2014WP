@@ -43,7 +43,7 @@
         <li>
             <a href="que-es" class="active">convocatoria</a>
             <ul class="submenu">
-                <li><a href="">REGISTRARSE</a></li>
+                <li><a href="http://circulart.org/mercado">REGISTRARSE</a></li>
                 <li class="a-submenu"><a href="">CONDICIONES</a>
                     <ul class="nivel-2">
                         <li><a href="quienes-pueden-participar.php">Quienes pueden participar</a></li>
