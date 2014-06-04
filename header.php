@@ -37,14 +37,6 @@
             <img src="<?php bloginfo('template_directory'); ?>/images/header/convocatoria.png">
         </figure>
     </div>
-    <div class="contend-header">
-        <p>Mercado cultural</p>
-
-        <p> circulart 2014</p>
-
-    </div>
-
-
 </header>
 <nav>
     <ul>

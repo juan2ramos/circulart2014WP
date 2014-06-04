@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: quienes-pueden-participar
+*/
+?>
 
 <?php get_header(); ?>
 <main role="main">
@@ -27,6 +32,7 @@
         </article>
 
     <?php endwhile; ?>
+
 
     <h2 class="register">registrarse</h2>
     <canvas id="myCanvas"></canvas>
