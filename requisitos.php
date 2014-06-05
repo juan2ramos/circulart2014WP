@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: artistas
+Template Name: requisitos
 */
 ?>
 
