@@ -333,8 +333,9 @@ h2{
 }
 #convocatoria article{
     position: relative;
-    height: 330px;
-    width: 1040px;
+    display: inline-block;
+    vertical-align: top;
+
 }
 
 #convocatoria h3{
@@ -356,6 +357,12 @@ h2{
 .register{
     background : #F27227;
     color: #DBD5CC;
+}
+.register a{
+    color: #DBD5CC;
+}
+.register a:hover{
+    color: #fff;
 }
 /*=================================================================
 Portafolio
@@ -393,6 +400,14 @@ Portafolio
 /*=================================================================
 States
 ===================================================================*/
+.banner-2{
+    margin: 20px 0;
+}
 span.orange{
     background: #F27227;
+}
+.inline{
+    display: inline-block;
+    padding: 20px 0 0 25px;
+    vertical-align: middle;
 }

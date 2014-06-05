@@ -41,39 +41,37 @@
 <nav>
     <ul>
         <li>
-            <a href="que-es" class="active">convocatoria</a>
+            <a href="http://circulart.org" class="active">convocatoria</a>
             <ul class="submenu">
                 <li><a href="http://circulart.org/mercado" target="_blank">REGISTRARSE</a></li>
-                <li class="a-submenu"><a href="">CONDICIONES</a>
+                <li class="a-submenu"><a href="#">CONDICIONES</a>
                     <ul class="nivel-2">
-                        <li><a href="quienes-pueden-participar.php">Quienes pueden participar</a></li>
-                        <li><a href="">Requisitos</a></li>
-                        <li><a href="">Derechos y obligaciones</a></li>
+                        <li><a href="http://circulart.org/quienes">Quienes pueden participar</a></li>
+                        <li><a href="http://circulart.org/requisitos">Requisitos</a></li>
+                        <li><a href="http://circulart.org/derechos-y-obligaciones">Derechos y obligaciones</a></li>
                     </ul>
                 </li>
-                <li><a href="">CRONOGRAMA</a></li>
-                <li><a href="">EVALUACION</a></li>
+                <li><a href="http://circulart.org/cronograma">CRONOGRAMA</a></li>
+                <li><a href="http://circulart.org/evaluacion">EVALUACIÓN</a></li>
             </ul>
         </li>
         <li>
-            <a href="portafolio" class="a-next">
+            <a href="http://circulart.org/curaduria" class="a-next">
                 curaduría
                 <p class="next">Próximamente publicaremos la información sobre curadores...</p>
             </a>
 
         </li>
         <li>
-            <a href="artistas" class="a-next">artistas
+            <a href="http://circulart.org/artistas" class="a-next">artistas
                 <p class="next">Próximamente publicaremos la información sobre curadores...</p>
             </a>
         </li>
-        <li><a href="profesionales" class="a-next">profesionales
+        <li><a href="http://circulart.org/profesionales" class="a-next">profesionales
                 <p class="next">Próximamente publicaremos la información sobre curadores...</p>
-            </a></li>
-
-        <li><a href="contacto" class="a-next">catálogo
-                <p class="next">Próximamente publicaremos la información sobre curadores...</p></a></li>
-    </ul>
+            </a>
+        </li>
+     </ul>
     <div id="network">
         <ul>
             <li id="twitter"><a href="#"><span class="icon-twitter"></span></a></li>

@@ -28,7 +28,7 @@
 
     <?php endwhile; ?>
 
-    <h2 class="register"><a href="http://circulart.org/mercados" target="_blank">registrarse</a></h2>
+    <h2 class="register"><a href="http://circulart.org/mercado" target="_blank">registrarse</a></h2>
     <canvas id="myCanvas"></canvas>
 </section>
 
