@@ -25,6 +25,7 @@
 
             <?php the_content(); ?>
         </article>
+        <iframe width="430" height="315" src="//www.youtube.com/embed/<?php echo get_post_meta($post->ID, 'link', true); ?>" frameborder="0" allowfullscreen></iframe>
 
     <?php endwhile; ?>
 

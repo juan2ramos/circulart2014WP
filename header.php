@@ -39,9 +39,17 @@
     </div>
 </header>
 <nav>
+    <?php
+        $class = "";
+        $v = array ( "curaduria", "artistas", "profesionales" );
+        if(!in_array($post->post_name,$v, TRUE)){
+            $class = "class = 'active' ";
+        }
+
+    ?>
     <ul>
         <li>
-            <a href="http://circulart.org" class="active">convocatoria</a>
+            <a href="http://circulart.org"  <?php echo($class)?>>convocatoria</a>
             <ul class="submenu">
                 <li><a href="http://circulart.org/mercado" target="_blank">REGISTRARSE</a></li>
                 <li class="a-submenu"><a href="#">CONDICIONES</a>
@@ -56,19 +64,19 @@
             </ul>
         </li>
         <li>
-            <a href="http://circulart.org/curaduria" class="a-next">
+            <a href="http://circulart.org/curaduria" class="a-next <?php if($post->post_name == 'curaduria'){echo('active');}?>">
                 curaduría
                 <p class="next">Próximamente publicaremos la información sobre curadores...</p>
             </a>
 
         </li>
         <li>
-            <a href="http://circulart.org/artistas" class="a-next">artistas
-                <p class="next">Próximamente publicaremos la información sobre curadores...</p>
+            <a href="http://circulart.org/artistas" class="a-next <?php if($post->post_name == 'artistas'){echo('active');}?>">artistas
+                <p class="next">Próximamente publicaremos la información sobre artistas...</p>
             </a>
         </li>
-        <li><a href="http://circulart.org/profesionales" class="a-next">profesionales
-                <p class="next">Próximamente publicaremos la información sobre curadores...</p>
+        <li><a href="http://circulart.org/profesionales" class="a-next <?php if($post->post_name == 'profesionales'){echo('active');}?>">profesionales
+                <p class="next">Próximamente publicaremos la información sobre profesionales...</p>
             </a>
         </li>
      </ul>
@@ -82,6 +90,4 @@
 
 
 </nav>
-
-
 
