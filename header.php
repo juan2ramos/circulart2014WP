@@ -20,10 +20,9 @@
     <script src="<?php bloginfo('template_directory'); ?>/js/html5shiv.js" media="all"></script><![endif]-->
 
     <!-- Meta Facebook -->
-    <meta property="og:url" content="http://circulart.com.co/">
-    <meta property="og:title" content="circulart"/>
-    <meta property="og:description"
-          content="Circulart2014 Mercado Cultural de Medellín dedicado a la industria musical Latinoamericana http://circulart.org/ Encuentro anual, dedicado a la industria musical independiente de Latinoamérica, show cases, conferencias, talleres, networking, sesiones de negocios y una oportunidad única de descubrir la diversidad musical Iberoamericana.."/>
+    <meta property="og:url" content="http://circulart.org/">
+    <meta property="og:title" content="Circulart2014 Circulart2014 Mercado Cultural de Medellín dedicado a la industria musical Latinoamericana"/>
+    <meta property="og:description" content="Circulart2014 Mercado Cultural de Medellín dedicado a la industria musical Latinoamericana http://circulart.org/ Encuentro anual, dedicado a la industria musical independiente de Latinoamérica, show cases, conferencias, talleres, networking, sesiones de negocios y una oportunidad única de descubrir la diversidad musical Iberoamericana.."/>
     <meta property="og:image" content="<?php bloginfo('template_directory'); ?>/images/header/circulart2014.png"/>
 
 
