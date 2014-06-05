@@ -40,7 +40,6 @@
 </header>
 <nav>
     <?php
-    echo($post->post_name);
         $class = "";
         $v = array ( "curaduria", "artistas", "profesionales" );
         if(!in_array($post->post_name,$v, TRUE)){
