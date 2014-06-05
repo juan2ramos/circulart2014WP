@@ -23,8 +23,8 @@
     <meta property="og:url" content="http://circulart.com.co/">
     <meta property="og:title" content="circulart"/>
     <meta property="og:description"
-          content="Circulart2013 Mercado Cultural de Medellín dedicado a la industria musical Latinoamericana http://2013.circulart.org/ Encuentro anual, dedicado a la industria musical independiente de Latinoamérica, show cases, conferencias, talleres, networking, sesiones de negocios y una oportunidad única de descubrir la diversidad musical Iberoamericana.."/>
-    <meta property="og:image" content="<?php bloginfo('template_directory'); ?>/images/logo.png"/>
+          content="Circulart2014 Mercado Cultural de Medellín dedicado a la industria musical Latinoamericana http://circulart.org/ Encuentro anual, dedicado a la industria musical independiente de Latinoamérica, show cases, conferencias, talleres, networking, sesiones de negocios y una oportunidad única de descubrir la diversidad musical Iberoamericana.."/>
+    <meta property="og:image" content="<?php bloginfo('template_directory'); ?>/images/header/circulart2014.png"/>
 
 
     <?php wp_head(); ?>

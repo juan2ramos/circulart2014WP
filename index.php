@@ -6,7 +6,7 @@
         <a href="http://circulart.org/que-es-una-rueda-de-negocios"><span>¿Qué es una rueda de negocios?</span></a>
         <a href="http://circulart.org/jornadas-preparatorias"><span class="orange">Jornadas preparatorias</span></a>
     </div>
-    <a href="http://circulart.org/wp-content/themes/templateCirculart/images/ConvocatoriaArtistas.pdf" id="a-download">
+    <a href="http://circulart.org/wp-content/themes/templateCirculart/images/ConvocatoriaArtistas.pdf" target="_blank" id="a-download">
 
     <div class="download download-contend">
          <figure><img src="<?php bloginfo('template_directory'); ?>/images/human-circulart.png" alt=""/></figure>
