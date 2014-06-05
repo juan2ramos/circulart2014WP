@@ -3,14 +3,18 @@
 <main role="main">
 <section >
     <div class="download">
-        <span>¿Qué es una rueda de negocios?</span>
-        <span class="orange">Jornadas preparatorias</span>
+        <a href="http://circulart.org/que-es-una-rueda-de-negocios"><span>¿Qué es una rueda de negocios?</span></a>
+        <a href="http://circulart.org/jornadas-preparaorias"><span class="orange">Jornadas preparatorias</span></a>
     </div>
+    <a href="http://circulart.org/wp-content/themes/templateCirculart/images/ConvocatoriaArtistas.pdf" id="a-download">
+
     <div class="download download-contend">
-        <figure><img src="<?php bloginfo('template_directory'); ?>/images/human-circulart.png" alt=""/></figure>
-        <p class="p-download">DESCARGA</p>
-        <p class="p">la convocatoria completa</p>
+         <figure><img src="<?php bloginfo('template_directory'); ?>/images/human-circulart.png" alt=""/></figure>
+            <p class="p-download">DESCARGA</p>
+            <p class="p">la convocatoria completa</p>
+
     </div>
+    </a>
 </section>
 <section id="convocatoria">
 

@@ -44,7 +44,9 @@
 .icon-pinterest:before {
     content: "\e602";
 }
-
+.icon-instagram:before {
+    content: "\e60a";
+}
 a {
     text-decoration: none;
 }
@@ -120,6 +122,9 @@ Download
     position: relative;
     text-align: right;
     width: 1060px;
+}
+.download a:hover span, #a-download:hover p{
+    color: #dbd5cc;
 }
 .download span{
     background: #00A8A6;
@@ -278,7 +283,7 @@ nav li {
     background: #3E8F9A;
     color: #48463F;
 }
-#pinterest a{
+#instagram a{
     background: #F27227;
     color: #48463F;
 }

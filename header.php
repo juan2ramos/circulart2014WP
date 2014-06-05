@@ -54,7 +54,7 @@
                 <li><a href="http://circulart.org/mercado" target="_blank">REGISTRARSE</a></li>
                 <li class="a-submenu"><a href="#">CONDICIONES</a>
                     <ul class="nivel-2">
-                        <li><a href="http://circulart.org/quienes">Quienes pueden participar</a></li>
+                        <li><a href="http://circulart.org/quienes">Quiénes pueden participar</a></li>
                         <li><a href="http://circulart.org/requisitos">Requisitos</a></li>
                         <li><a href="http://circulart.org/derechos-y-obligaciones">Derechos y obligaciones</a></li>
                     </ul>
@@ -82,9 +82,10 @@
      </ul>
     <div id="network">
         <ul>
-            <li id="twitter"><a href="#"><span class="icon-twitter"></span></a></li>
-            <li id="facebook"><a href="#"><span class="icon-facebook"></span></a></li>
-            <li id="youtube"><a href="#"><span class="icon-uniE603"></span></a></li>
+            <li id="twitter"><a href="https://twitter.com/Circulart_"><span class="icon-twitter"></span></a></li>
+            <li id="facebook"><a href="https://www.facebook.com/Circulart"><span class="icon-facebook"></span></a></li>
+            <li id="youtube"><a href="https://www.youtube.com/channel/UCp1LtBBVxj68-drbIhJg71Q"><span class="icon-uniE603"></span></a></li>
+            <li id="instagram"><a href="http://instagram.com/circulartmc"><span class="icon-instagram"></span></a></li>
         </ul>
     </div>
 
