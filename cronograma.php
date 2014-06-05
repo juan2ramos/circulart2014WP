@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: curadores
+Template Name: cronograma
 */
 ?>
 
