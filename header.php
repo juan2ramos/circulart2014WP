@@ -34,7 +34,7 @@
 <header>
     <div id="slide">
         <figure id="header-buttom">
-            <img src="<?php bloginfo('template_directory'); ?>/images/header/convocatoria.png">
+            <img src="<?php bloginfo('template_directory'); ?>/images/header/circulart2014.png">
         </figure>
     </div>
 </header>
