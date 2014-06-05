@@ -8,7 +8,7 @@ Template Name: curadores
 <?php get_header(); ?>
     <main role="main">
         <section>
-            <figure class="banner-2"><img src="<?php bloginfo('template_directory'); ?>/images/curadores.png" alt=""/></figure>
+            <figure class="banner-2"><img src="<?php bloginfo('template_directory'); ?>/images/curaduria.png" alt=""/></figure>
         </section>
         <section id="convocatoria">
 
