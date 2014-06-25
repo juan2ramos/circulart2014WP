@@ -11,7 +11,7 @@ Template Name: equipo
 
         <ul id="equipo">
             <?php $home = new WP_Query(array(
-                'cat' => '7'
+                'cat' => '12'
             ));
 
             while ( $home->have_posts() ) : $home->the_post();
