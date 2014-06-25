@@ -30,7 +30,7 @@
 
 </head>
 <body <?php body_class(); ?>>
-<?php if(is_home()):?>
+<?php if(is_page( 55 )):?>
 <header>
     <div id="slide">
         <figure id="header-buttom">
