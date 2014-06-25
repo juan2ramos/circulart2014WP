@@ -301,9 +301,12 @@ Footer
 ===================================================================*/
 footer {
     background: #48463f;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     clear: both;
     margin: 0 auto	;
-    width: 1060px
+    width: 1060px;
+    padding: 30px 0;
 }
 footer a {
     font-weight: bold;
@@ -311,13 +314,16 @@ footer a {
     text-transform: uppercase;
 }
 #nav-footer {
-    padding:60px 20px 40px;
+    background: #fff;
+    padding:20px  ;
+    width: 910px
 }
 #nav-footer img{
     max-height: 50px
 }
 
 #nav-footer li {
+
     display: inline-block;
     margin: 5px 10px;
 }
@@ -403,6 +409,57 @@ Portafolio
 }
 .contend-portafolio{
     background: #fff;
+}
+
+/*=================================================================
+equipo
+===================================================================*/
+ul#equipo{
+    margin: 50px 0 0;
+}
+#equipo li{
+
+    display: inline-block;
+    padding-bottom: 30px;
+    position: relative;
+    vertical-align: top;
+    text-align: center;
+    width: 24.5%;
+}
+#equipo figure{
+    border-bottom: 5px solid #F27227;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 145px;
+}
+#equipo img{
+    max-width: 145px;
+}
+#equipo li:hover figcaption{
+    display: block;
+}
+#equipo li:hover figure {
+    border-bottom: 5px solid #00A8A6
+}
+
+#equipo figcaption{
+    display: none;
+    position: absolute;
+    text-align: right;
+    top: 90px;
+    width: 200px;
+}
+#equipo figcaption p{
+    background: #00A8A6;
+    color: #48463f;
+    font-weight: bold;
+    letter-spacing: 0;
+    margin: 2px 0;
+    padding: 3px ;
+    width: 200px;
+}
+#equipo figcaption p:nth-child(2){
+    font-weight: 100;
 }
 /*=================================================================
 States

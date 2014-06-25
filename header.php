@@ -62,6 +62,7 @@
                 </li>
                 <li><a href="http://circulart.org/cronograma">CRONOGRAMA</a></li>
                 <li><a href="http://circulart.org/evaluacion">EVALUACIÓN</a></li>
+                <li><a href="http://circulart.org/equipo">EQUIPO</a></li>
             </ul>
         </li>
         <li>
