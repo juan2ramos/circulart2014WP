@@ -1,8 +1,13 @@
 <footer>
     <ul id="nav-footer">
 
+        <li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/mincultura.jpg"></a></li>
+        <li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/prosperidad-para-todos.jpg"></a></li>
         <li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/redlat.jpg"></a></li>
         <li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/circulart.jpg"></a></li>
+        <li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/mvlm.jpg"></a></li>
+        <li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/medellin-todos-por-la-vida.jpg"></a></li>
+        <li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/alcaldia-medellin.jpg"></a></li>
     </ul>
 </footer>
 <!-- JavaScript -->
