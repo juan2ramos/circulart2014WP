@@ -30,6 +30,7 @@
 
 </head>
 <body <?php body_class(); ?>>
+<?php if(is_home()):?>
 <header>
     <div id="slide">
         <figure id="header-buttom">
@@ -37,6 +38,7 @@
         </figure>
     </div>
 </header>
+<?php endif?>
 <nav>
     <?php
         $class = "";
