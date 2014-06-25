@@ -81,7 +81,11 @@
             </a>
         </li>
 
-        <a href="http://circulart.org"  <?php echo($class)?>>EQUIPO</a>
+        <li>
+            <a href="http://circulart.org/equipo" class="a-next <?php if($post->post_name == 'equipo'){echo('active');}?>">
+                equipo
+            </a>
+        </li>
      </ul>
     <div id="network">
         <ul>
