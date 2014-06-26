@@ -42,7 +42,7 @@
 <nav>
     <?php
         $class = "";
-        $v = array ( "curaduria", "artistas", "profesionales" );
+        $v = array ( "curaduria", "artistas", "profesionales", "equipo" );
         if(!in_array($post->post_name,$v, TRUE)){
             $class = "class = 'active' ";
         }
