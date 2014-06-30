@@ -27,7 +27,14 @@ Template Name: contacto
                     <label for="comment">Comentario : </label>
                     <textarea name="comment" id="comment"></textarea>
                 </div>
-
+                <div class="input-contend">
+                    <label for="dirigido">Dirigido a : </label>
+                    <select name="dirigido" id="">
+                        <option value="juanramos@redlat.org">Información</option>
+                        <option value="juanramos@redlat.org">Administración</option>
+                        <option value="juanramos@redlat.org">Información</option>
+                    </select>
+                </div>
                 <input type="submit" class="submit">
             </form>
             <div class="contact-info">

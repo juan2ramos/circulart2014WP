@@ -473,10 +473,15 @@ Contact
     vertical-align: top;
     width: 680px;
 }
+#convocatoria .contact-info h3{
+    font-size: 1.1em;
+    margin: -10px 0 25px;
+    width: 220px;
+}
 .input-contend{
     padding: 10px;
 }
-.input-contend input, .input-contend textarea{
+.input-contend input, .input-contend textarea, .input-contend select{
     border: none;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
