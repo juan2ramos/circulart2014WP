@@ -449,7 +449,7 @@ ul.equipo{
     top: 90px;
     width: 200px;
 }
-.equipo figcaption p{
+#convocatoria .equipo figcaption p{
     background: #00A8A6;
     color: #48463f;
     font-weight: bold;
