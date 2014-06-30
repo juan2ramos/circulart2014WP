@@ -10,7 +10,7 @@ Template Name: contacto
 
         <section id="convocatoria">
 
-            <form action="" id="form-contact" method="post">
+            <form action="" id="contact-form" method="post">
                 <div class="input-contend">
                     <label for="name">nombre : </label>
                     <input type="text" id="name" name="name">
