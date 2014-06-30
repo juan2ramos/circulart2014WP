@@ -42,7 +42,7 @@
 <nav>
     <?php
         $class = "";
-        $v = array ( "curaduria", "artistas", "profesionales", "equipo" );
+        $v = array ( "curaduria", "artistas", "profesionales", "equipo","contacto" );
         if(!in_array($post->post_name,$v, TRUE)){
             $class = "class = 'active' ";
         }
@@ -84,6 +84,11 @@
         <li>
             <a href="http://circulart.org/equipo" class="a-next <?php if($post->post_name == 'equipo'){echo('active');}?>">
                 equipo
+            </a>
+        </li>
+        <li>
+            <a href="http://circulart.org/contacto" class="a-next <?php if($post->post_name == 'contacto'){echo('active');}?>">
+                contacto
             </a>
         </li>
      </ul>

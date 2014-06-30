@@ -319,7 +319,7 @@ footer a {
     width: 910px
 }
 #nav-footer img{
-    max-height: 50px
+    max-height: 63px
 }
 
 #nav-footer li {
@@ -414,10 +414,10 @@ Portafolio
 /*=================================================================
 equipo
 ===================================================================*/
-ul#equipo{
+ul.equipo{
     margin: 50px 0 0;
 }
-#equipo li{
+.equipo li{
 
     display: inline-block;
     padding-bottom: 30px;
@@ -426,30 +426,30 @@ ul#equipo{
     text-align: center;
     width: 24.5%;
 }
-#equipo figure{
+.equipo figure{
     border-bottom: 5px solid #F27227;
     cursor: pointer;
     margin: 0 auto;
     width: 145px;
 }
-#equipo img{
+.equipo img{
     max-width: 145px;
 }
-#equipo li:hover figcaption{
+.equipo li:hover figcaption{
     display: block;
 }
-#equipo li:hover figure {
+.equipo li:hover figure {
     border-bottom: 5px solid #00A8A6
 }
 
-#equipo figcaption{
+.equipo figcaption{
     display: none;
     position: absolute;
     text-align: right;
     top: 90px;
     width: 200px;
 }
-#equipo figcaption p{
+.equipo figcaption p{
     background: #00A8A6;
     color: #48463f;
     font-weight: bold;
@@ -458,8 +458,82 @@ ul#equipo{
     padding: 3px ;
     width: 200px;
 }
-#equipo figcaption p:nth-child(2){
+.equipo figcaption p:nth-child(2){
     font-weight: 100;
+}
+
+/*=================================================================
+Contact
+===================================================================*/
+#form-contact{
+
+    display: inline-block;
+    margin: 20px auto;
+    text-align: right;
+    vertical-align: top;
+    width: 680px;
+}
+.input-contend{
+    padding: 10px;
+}
+.input-contend input, .input-contend textarea{
+    border: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 0 20px;
+    width: 500px;
+}
+.input-contend label{
+    display: inline-block;
+    margin-right: 50px;
+    width: 100px;
+}
+.contact-info{
+
+    color: #575757;
+    display: inline-block;
+    font-size: .9em;
+    margin: 25px;
+    vertical-align: top;
+    width: 320px;
+}
+.contact-info h3{
+    font-size: 1.05em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contact-info div{
+    margin: 10px 0;
+}
+.contact-info a{
+    color: #575757;
+    font-size: .9em;
+    font-weight: bold;
+}
+.contact-info a:hover{
+    color: #F27227;
+}
+.submit{
+    background: #F27227;
+    border-bottom: 3px solid #CC6021;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: #fff;
+    margin: 10px;
+    padding: 10px 50px;
+}
+.submit:hover{
+    border-bottom: none;
+    box-shadow: inset 1px 1px 5px rgba(108, 108, 108, 0.41);
+    margin-bottom: 13px;
+}
+.input-contend textarea{
+    height: 100px;
+    padding-top: 10px;
+
 }
 /*=================================================================
 States
