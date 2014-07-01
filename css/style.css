@@ -554,3 +554,11 @@ span.orange{
     padding: 20px 0 0 25px;
     vertical-align: middle;
 }
+.message{
+	width: 100%;	
+	text-align: left;
+	display: block;
+	margin: 20px 0;
+	color: #167C7B;
+	font-size:1.5em 
+}

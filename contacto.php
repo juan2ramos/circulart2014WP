@@ -12,8 +12,8 @@ Template Name: contacto
 
             <form action="" id="contact-form" method="post">
                 <div class="input-contend">
-                    <label for="name">nombre : </label>
-                    <input type="text" id="name" name="name">
+                    <label for="name-user">nombre : </label>
+                    <input type="text" id="name-user" name="name-user">
                 </div>
                 <div class="input-contend">
                     <label for="email">E-mail : </label>

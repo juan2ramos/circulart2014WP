@@ -12,7 +12,7 @@ $(function () {
     $('#contact-form').on("submit", function (e) {
         e.preventDefault();
         var fields = $(this).serializeArray();
-        $.post("email.php", fields, responseForm, 'json');
+        $.post("http://circulart.org/email", fields, responseForm, 'json');
 
     });
     function responseForm(r) {
@@ -21,8 +21,8 @@ $(function () {
             alert(r.message);
         }
         else {
-            $('#contact-form').css('display', 'none');
-            $('.form').append("<span class='message'>" + r.message + "<span>");
+            $('#contact-form').text('');
+            $('#contact-form').append("<span class='message'>" + r.message + "<span>");
         }
     }
 
