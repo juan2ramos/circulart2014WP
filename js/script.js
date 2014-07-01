@@ -12,7 +12,7 @@ $(function () {
     $('#contact-form').on("submit", function (e) {
         e.preventDefault();
         var fields = $(this).serializeArray();
-        $.post("email.php", fields, responseForm, 'json');
+        $.post("http://circulart.org/email.php", fields, responseForm, 'json');
 
     });
     function responseForm(r) {

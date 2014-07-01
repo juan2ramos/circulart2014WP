@@ -8,6 +8,9 @@ Template Name: equipo
 <?php get_header(); ?>
 <main role="main">
     <section id="convocatoria">
+        <section>
+            <figure class="banner-2"><img src="<?php bloginfo('template_directory'); ?>/images/equipo.png" alt=""/></figure>
+        </section>
         <h2 class="register">Dirección</h2>
         <ul class="equipo">
             <?php $home = new WP_Query(array(
