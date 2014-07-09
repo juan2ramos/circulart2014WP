@@ -30,9 +30,9 @@ Template Name: contacto
                 <div class="input-contend">
                     <label for="dirigido">Dirigido a : </label>
                     <select name="dirigido" id="">
-                        <option value="juanramos@redlat.org">Información</option>
-                        <option value="juanramos@redlat.org">Administración</option>
-                        <option value="juanramos@redlat.org">Información</option>
+                        <option value="info@redlat.org">Información General REDLAT</option>
+                        <option value="info@circulart.org">Información General CIRCULART</option>
+                        <option value="bettygarcia@redlat.org">Secretaria Ejecutiva-Tesorera</option>
                     </select>
                 </div>
                 <input type="submit" class="submit">
