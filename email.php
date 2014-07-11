@@ -1,36 +1,69 @@
-<?php
-/*
-Template Name: email
-*/
-if (!empty($_POST)) {
+<section class="<?php echo($url) ?>">
+    
 
-    if(empty($_POST['name-user']) || empty($_POST['comment'])|| empty($_POST['phone']) || empty($_POST['dirigido'])){
-        $arrayMsj['success'] = FALSE;
-        $arrayMsj['message'] = 'Todos los campos son requeridos';
-        echo (json_encode($arrayMsj));
-        exit;
-    }
-    require '/home/redlat/public_html/via/include/PHPMailer/PHPMailerAutoload.php';
-    $mail = new PHPMailer;
-    $mail->IsSendmail();
-    $mail->FromName ='Formulario Circulart' ;
-    $mail->CharSet = 'UTF-8';
-    $mail->From = 'info@circulart.org';
-    $mail->Subject = 'Mensaje de circulart Web';
-    $mail->MsgHTML('Mensaje con HTML');
-    $template = '<h1>Mensaje enviado desde el formulario de Circulart</h1><br><br>';
-    $template .= 'Nombre: ' . $_POST['name-user'] . '<br>';
-    $template .= 'Email: ' . $_POST['email'] .'<br>';
-    $template .= 'telefono: ' . $_POST['phone'] .'<br>';
-    $template .= 'Mensaje: <br>' . $_POST['comment'] ;
-    $mail->Body = $template;
-    $mail->AddAddress($_POST['dirigido'], '');
-    $mail->Send();
+    <form action="" id="form-contact" method="post">
+        <div class="input-contend">
 
-    $arrayMsj['success'] = TRUE;
-    $arrayMsj['message'] = 'Felicitaciones, su mensaje a sido enviado con éxito!!';
-    echo (json_encode($arrayMsj));
-    exit;
-}else{
-    echo "Error al intentar acceder";
-}
+            <label for="name">Dirigido : </label>
+            <select name="dirigido" id="dirigido">
+                <option value="convocatoriaescena70@complejoteatral.gob.ar">Coordinación Artistas - Milena García</option>
+                <option value="nicolasescena70@complejoteatral.gob.ar">Coordinación Artistas - Nicolás González</option>
+                <option value="programadoresescena70@complejoteatral.gob.ar">Coordinación Programadores - Luis Fernando Zuluaga</option>
+                <option value="gonzaloescena70@complejoteatral.gob.ar">Coordinación Programadores - Gonzalo Bao</option>
+            </select>
+        </div>
+        <div class="input-contend">
+            <label for="name-user">nombre : </label>
+            <input type="text" id="name-user" name="name-user"/>
+        </div>
+        <div class="input-contend">
+            <label for="company">Empresa : </label>
+            <input type="text" id="company" name="company"/>
+        </div>
+        <div class="input-contend">
+            <label for="email">E-mail : </label>
+            <input type="email" id="email" name="email"/>
+        </div>
+        <div class="input-contend">
+            <label for="phone">Telefono : </label>
+            <input type="tel" id="phone" name="phone"/>
+        </div>
+        <div class="input-contend">
+            <label for="comment">Comentario : </label>
+            <textarea name="comment" id="comment"></textarea>
+        </div>
+
+        <input type="submit" class="submit"/>
+    </form>
+    <div class="contact-info">
+	<p>Si tiene alguna inquietud relacionada con Escena 70, Por favor comunicarse con alguna de las siguientes personas, indicando todos sus datos.</p>
+        <div>
+            <h4>Coordinación Artistas Rueda de Negocios</h4>
+            Milena García<br>
+            <a href="mailto:convocatoriaescena70@complejoteatral.gob.ar">convocatoriaescena70@complejoteatral.gob.ar</a><br>
+            Nicolás González
+            <a href="mailto:nicolasescena70@complejoteatral.gob.ar">nicolasescena70@complejoteatral.gob.ar</a><br>
+
+        </div>
+        <div>
+            <h4>Coordinación Programadores Rueda de Negocios</h4>
+            Luis Fernando Zuluaga<br>
+            <a href="mailto:programadoresescena70@complejoteatral.gob.ar">programadoresescena70@complejoteatral.gob.ar</a><br>
+            Gonzalo Bao <br/>
+            <a href="mailto:gonzaloescena70@complejoteatral.gob.ar">gonzaloescena70@complejoteatral.gob.ar</a><br>
+           	
+
+iguerrero@complejoteatral.gob.ar 
+        </div>
+        <div>
+        	<h4>Coordinación Producción General </h4>
+        	Ignacio Guerrero<br>       	
+            <a href="mailto:iguerrero@complejoteatral.gob.ar ">iguerrero@complejoteatral.gob.ar</a><br>
+        </div>
+
+    </div>
+</section>
+<div class="divisor">
+    <div class="lines"></div>
+    <span class="plus">+</span>
+</div>

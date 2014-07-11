@@ -42,7 +42,7 @@
 <nav>
     <?php
         $class = "";
-        $v = array ( "curaduria", "artistas", "profesionales", "equipo","contacto" );
+        $v = array ( "curaduria", "artistas", "profesionales", "equipo","contacto","boletines" );
         if(!in_array($post->post_name,$v, TRUE)){
             $class = "class = 'active' ";
         }
@@ -76,11 +76,14 @@
                 <p class="next">Próximamente publicaremos la información sobre artistas...</p>
             </a>
         </li>
-        <li><a href="http://circulart.org/profesionales" class="a-next <?php if($post->post_name == 'profesionales'){echo('active');}?>">profesionales
-                <p class="next">Próximamente publicaremos la información sobre profesionales...</p>
+        <li><a href="http://circulart.org/mercado/profesionales.php" class="a-next <?php if($post->post_name == 'profesionales'){echo('active');}?>">profesionales
+
             </a>
         </li>
+        <li><a href="http://circulart.org/mercado/general" class="a-next <?php if($post->post_name == 'profesionales'){echo('active');}?>">Eventos Teóricos
 
+            </a>
+        </li>
         <li>
             <a href="http://circulart.org/equipo" class="a-next <?php if($post->post_name == 'equipo'){echo('active');}?>">
                 equipo
@@ -89,6 +92,11 @@
         <li>
             <a href="http://circulart.org/contacto" class="a-next <?php if($post->post_name == 'contacto'){echo('active');}?>">
                 contacto
+            </a>
+        </li>
+        <li>
+            <a href="http://circulart.org/boletines" class="a-next <?php if($post->post_name == 'contacto'){echo('active');}?>">
+                boletines
             </a>
         </li>
      </ul>
