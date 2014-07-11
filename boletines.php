@@ -32,9 +32,10 @@ Template Name: boletines
                         <td><?php the_content(); ?></td>
                         <td><?php echo get_the_date(); ?></td>
                         <td><a href="<?php echo get_post_meta($post->ID, 'link', true); ?>" target="_blank">Ver</a></td>
-                        ;
+
                     </tr>
-                <?php endwhile; ?>
+
+                <?php $idNumber++; endwhile; ?>
                 </tbody>
             </table>
 
