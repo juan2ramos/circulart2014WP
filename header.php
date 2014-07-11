@@ -94,11 +94,7 @@
                 contacto
             </a>
         </li>
-        <li>
-            <a href="http://circulart.org/boletines" class="a-next <?php if($post->post_name == 'boletines'){echo('active');}?>">
-                boletines
-            </a>
-        </li>
+
      </ul>
     <div id="network">
         <ul>
