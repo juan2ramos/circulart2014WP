@@ -76,7 +76,7 @@
                 <p class="next">Próximamente publicaremos la información sobre artistas...</p>
             </a>
         </li>
-        <li><a href="http://circulart.org/mercado/profesionales.php" class="a-next <?php if($post->post_name == 'profesionales'){echo('active');}?>">profesionales
+        <li><a href="http://circulart.org/mercado/profesionales.php"  target="_blank" class="a-next <?php if($post->post_name == 'profesionales'){echo('active');}?>">profesionales
 
             </a>
         </li>
