@@ -64,18 +64,18 @@
                 <li><a href="http://circulart.org/evaluacion">EVALUACIÓN</a></li>
             </ul>
         </li>
-        <li>
-            <a href="http://circulart.org/curaduria" class="a-next <?php if($post->post_name == 'curaduria'){echo('active');}?>">
+       <!-- <li>
+            <a href="http://circulart.org/curaduria" class="a-next <?php #if($post->post_name == 'curaduria'){echo('active');}?>">
                 curaduría
                 <p class="next">Próximamente publicaremos la información sobre curadores...</p>
             </a>
 
         </li>
         <li>
-            <a href="http://circulart.org/artistas" class="a-next <?php if($post->post_name == 'artistas'){echo('active');}?>">artistas
+            <a href="http://circulart.org/artistas" class="a-next <?php #if($post->post_name == 'artistas'){echo('active');}?>">artistas
                 <p class="next">Próximamente publicaremos la información sobre artistas...</p>
             </a>
-        </li>
+        </li>-->
         <li><a href="http://circulart.org/mercado/profesionales.php"  target="_blank" class="a-next <?php if($post->post_name == 'profesionales'){echo('active');}?>">profesionales
 
             </a>
