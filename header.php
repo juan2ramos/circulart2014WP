@@ -80,7 +80,7 @@
 
             </a>
         </li>
-        <li><a href="http://circulart.org/mercado/general" class="a-next <?php if($post->post_name == 'profesionales'){echo('active');}?>">Eventos Teóricos
+        <li><a href="http://circulart.org/mercado/general" target="_blank" class="a-next <?php if($post->post_name == 'profesionales'){echo('active');}?> ">Eventos Teóricos
 
             </a>
         </li>
