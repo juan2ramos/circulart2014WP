@@ -31,7 +31,7 @@ Template Name: boletines
                         <td><?php echo($idNumber) ?></td>
                         <td><?php the_content(); ?></td>
                         <td><?php echo get_the_date(); ?></td>
-                        <td><a href="<?php echo get_post_meta($post->ID, 'link', true); ?>">Ver</a></td>
+                        <td><a href="<?php echo get_post_meta($post->ID, 'link', true); ?>" target="_blank">Ver</a></td>
                         ;
                     </tr>
                 <?php endwhile; ?>
