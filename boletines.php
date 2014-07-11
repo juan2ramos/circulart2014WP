@@ -24,14 +24,14 @@ Template Name: boletines
                 <?php $home = new WP_Query(array(
                     'cat' => '19'
                 ));
-                $id = 1;
+                $idNumber = 1;
                 while ($home->have_posts()) : $home->the_post();
                     ?>
                     <tr>
-                        <td><?php echo($id) ?></td>
+                        <td><?php echo($idNumber) ?></td>
                         <td><?php the_content(); ?></td>
-                        <td><?php echo get_the_time(); ?></td>
-                        <td><a href="<?php echo get_post_meta($post->ID, 'link', true); ?>"></a>Ver</td>
+                        <td><?php echo get_the_date(); ?></td>
+                        <td><a href="<?php echo get_post_meta($post->ID, 'link', true); ?>">Ver</a></td>
                         ;
                     </tr>
                 <?php endwhile; ?>

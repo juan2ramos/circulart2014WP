@@ -553,6 +553,9 @@ tbody tr:nth-child(2n+1){
 td{
     height: 30px;
 }
+td a{
+    color:#00A8A6;
+}
 td,th{
     padding-left: 20px;
 }
